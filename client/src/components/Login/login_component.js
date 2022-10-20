@@ -15,14 +15,10 @@ export default class Login extends Component {
   handleSubmit(e) {             
     e.preventDefault();
     const { email, password} = this.state;
-    if(email === ""){
-      alert("Please Enter Email");
-    } else if(password === ""){
-      alert("Please Enter Password")
-    }
+    
     console.log(email, password);
     if(email != ""  && password != ""){
-    fetch("http://localhost:5000/login-user", {
+    fetch("https://resume-builder-projects.herokuapp.com/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {
@@ -39,8 +35,7 @@ export default class Login extends Component {
       .then((data) => {
         console.log(data, "userRegister");
         if (data.status == "ok") {
-          alert("Login Successful");
-          window.localStorage.setItem("email", email)
+          window.localStorage.setItem("email", email);
           window.localStorage.setItem("token", data.data);
           window.location.href = "./ResumeBuilder/";
         }
@@ -61,8 +56,9 @@ export default class Login extends Component {
                     type="email"
                     className="form-control"
                     name="email"
-                    placeholder="Enter email"
+                    placeholder="Enter your email"
                     value={this.state.email}
+                    required
                     onChange={(e) => this.setState({ email: e.target.value })}
                   />
                 </div>
@@ -73,8 +69,9 @@ export default class Login extends Component {
                     type="password"
                     className="form-control"
                     name="password"
-                    placeholder="Enter password"
+                    placeholder="Enter your password"
                     value={this.state.password}
+                    required
                     onChange={(e) => this.setState({ password: e.target.value })}
                   />
                 </div> 

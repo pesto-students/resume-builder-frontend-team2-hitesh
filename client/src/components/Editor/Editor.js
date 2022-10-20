@@ -17,7 +17,7 @@ console.log("++++++++++++++++++++", `getResumeData?useId=${window.localStorage.g
 //fetch(`/getResumeData/${window.localStorage.getItem("email")}`).then((response) => console.log("hi",response))
 function Editor(props) {
   useEffect(()=>{
-    fetch(`http://localhost:5000/getResumeData/${window.localStorage.getItem("email")}`, {
+    fetch(`https://resume-builder-projects.herokuapp.com/getResumeData/${window.localStorage.getItem("email")}`, {
         method: "GET",
         crossDomain: true,
         headers: {
@@ -547,7 +547,7 @@ function Editor(props) {
         break;
       }
     }
-      fetch("http://localhost:5000/saveResumeData", {
+      fetch("https://resume-builder-projects.herokuapp.com/saveResumeData", {
         method: "POST",
         crossDomain: true,
         headers: {
