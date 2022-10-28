@@ -25,7 +25,7 @@ Please Note:
 | ---- | ------------------------ | ----------- |
 | User | ```nikithaK@gmail.com``` | ```Nikitha@123``` |
 
-![Login as Guest](https://github.com/pesto-students/wow-menu-frontend-team1-jayesh/blob/master/public/images/CustomerLink.png?raw=true)
+![Login as Guest](https://resume-builder-projects.herokuapp.com/sign-in)
 
 ## Installation
 
