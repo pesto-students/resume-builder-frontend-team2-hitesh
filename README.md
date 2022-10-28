@@ -1,82 +1,67 @@
-# Resume-Builder:
+# Resume-Builder
 
-Resume builder is a software developed to simplify the task of creating a resume for individuals
+![Resume-Builder Logo](https://raw.githubusercontent.com/pesto-students/resume-builder-frontend-team2-hitesh/master/client/src/components/Navbar/logo.png)
 
+Resume builder is a Web Application to simplify the task of creating a resume for individuals. The application provides an effective means of designing a desired resume in fact a professional looking resume. The system is flexible to be used and reduces the need of thinking and designing an appropriate resume according to qualifications. Usually individuals get confused while creating a resume especially for a novice person such as graduate students. They don’t get a clear idea of what things and information must be included in a resume. Hence the system is developed to provide them an easy way for creating a professional looking resume.
 
-## Who is this for?
+# Table of Contents
 
-Students preparing to apply for internships, working professionals who are targeting their next job.
+1. [Demo](#demo)
+2. [Installation](#installation)
+3. [Technology Stack](#technology-stack)
+4. [Authors](#authors)
+5. [License](#license)
 
-## How do they Benefit?
-Help job seekers to create, make, edit and share resume.<br/>
-Webpage designed interactively which helps in faster resume building.<br/>
-You can download Resume in PDF format.
+## Demo
 
-## How is this different?
-User can build resume faster and we have a free version of it.
+[Resume-Builder Dashboard Demo](https://resume-builder-projects.herokuapp.com/)
 
----
+Please Note:
+1. We recommend using this app in any browser other than Microsoft Edge
+2. Use the Resume-Builder Dashboard on Laptop | desktop | tablet only for better expirence.
 
-## Live Links
-+ [Live](https://resume-builder-projects.herokuapp.com/) </br>
+**Test Credentials for Restaurant Users:**
+| Role | Email / Username         | Password |
+| ---- | ------------------------ | ----------- |
+| User | ```nikithaK@gmail.com``` | ```Nikitha@123``` |
 
----
+![Login as Guest](https://github.com/pesto-students/wow-menu-frontend-team1-jayesh/blob/master/public/images/CustomerLink.png?raw=true)
 
-## Usage
+## Installation
 
-Running this project should be very easy
-+ Run **npm i** to install all dependencies.</br>
-+ Please ensure to run backend server first.</br>
-+ To run backend server use command "nodemon app" in the respected folder.</br>
-+ Open http://localhost:3000 with your browser to see the result.</br>
+- Fork or directly clone this repository to your local machine
 
-***NOTE:*** *Please checkout dev-work branch to run locally.*
+- Copy the .env.example to .env file and configure the .env file
 
----
+- Run the below command to install the packages in package.json
 
-## System Requirements
-Following system requirements need to be met in order for this application to run
+```bash
+npm install
+```
 
-+ Node.js 16.14 or later
-+ MacOS, Windows, and Linux are supported
+- Run the below command to start the app
 
----
+```bash
+ npm start
+```
 
-## Designs
+## Technology Stack
 
-### Wireframes v1.0:
- + Module: [Figma Design](https://www.figma.com/file/5Pi1EUP0rMWNoStUORTXy2/resume_builder?node-id=0%3A1) </br>
- 
-### HLD </br>
- + Design Link v1.0: [HLD](https://drive.google.com/file/d/1DXawxpEG1MH5kHuSCYZZnZ2wsMV0_WZ4/view) </br>
- 
- 
- ---
- 
-## Tech Stack
- + Frontend- React. </br>
- + Backend- NodeJS, Express. </br>
- + Deployment- Netlify, Heroku </br>
- + Database- Mongo DB </br>
- + Authentication- JWT token Authentication. </br>
- + Tools- Version Control System (GIT), Github</br>
- 
- ---
- 
- ## Team Mentor 
-  + Hitesh Ramola
+We have used Mern stack to develop the Application.
 
- ## Developers
- + Sudhesh Holla
- + Nikitha Kasala
-
-## User Credentials
-
- Uer Registration URL: https://resume-builder-projects.herokuapp.com/sign-up<br/>
- User Login URL: https://resume-builder-projects.herokuapp.com/sign-in
+- [React JS](https://reactjs.org/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
-## Credentials for testing
- 
- + userName - ```nikithaK@gmail.com```
- + password - ```Nikitha@123```
+
+## Authors
+
+- [Sudhesh Holla](https://github.com/sudhesh15)
+- [Nikitha Kasala](https://github.com/nikithakasala/)
+
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
