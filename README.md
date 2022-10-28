@@ -25,7 +25,7 @@ Please Note:
 | ---- | ------------------------ | ----------- |
 | User | ```nikithaK@gmail.com``` | ```Nikitha@123``` |
 
-![Login as Guest](https://resume-builder-projects.herokuapp.com/sign-in)
+- [Login as Guest](https://resume-builder-projects.herokuapp.com/sign-in)
 
 ## Installation
 
