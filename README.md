@@ -18,9 +18,9 @@ Resume builder is a Web Application to simplify the task of creating a resume fo
 
 Please Note:
 1. We recommend using this app in any browser other than Microsoft Edge
-2. Use the Resume-Builder Dashboard on Laptop | desktop | tablet only for better expirence.
+2. Use the Resume-Builder Dashboard on Laptop | desktop.
 
-**Test Credentials for Restaurant Users:**
+**Test Credentials for Resume-Builder Users:**
 | Role | Email / Username         | Password |
 | ---- | ------------------------ | ----------- |
 | User | ```nikithaK@gmail.com``` | ```Nikitha@123``` |
